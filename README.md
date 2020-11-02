@@ -1,5 +1,6 @@
+#Jsontest
+利用dnslog批量测试fastjson漏洞。
 # 用法
-
 ./Jsontest  -h
 Usage: Jsontest [-r] x.txt [-d] x.dnslog.com [-ssl]
   -d    DNSlog地址
@@ -7,8 +8,7 @@ Usage: Jsontest [-r] x.txt [-d] x.dnslog.com [-ssl]
   -ssl
         是否HTTPS
 
-用法：
-    ./JsonDataTest -r 1.txt -d baidu.com -ssl
+  ./JsonDataTest -r 1.txt -d baidu.com -ssl
     在burp中发现使用json格式的数据包，保存为1.txt,使用$exp$替换掉对应json数据，替换方式如下：
 
 ## POST型请求
